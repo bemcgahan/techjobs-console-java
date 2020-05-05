@@ -99,6 +99,7 @@ public class JobData {
                 String compareGetValue = job.getValue().toLowerCase();
                 if (compareGetValue.contains(compareValue)){
                     jobs.add(row);
+                    break;
                 }
             }
 
